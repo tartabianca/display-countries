@@ -1,0 +1,61 @@
+.pageContainer{
+    padding-top: 90px;
+}
+
+.Main {
+    margin-top: 30px;
+    min-height: calc(100vh - 32rem);
+}
+
+.Container {
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countriesContainer{
+    position: relative;
+    width: 900px;
+}
+
+.countryItem ul{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(auto-fit, auto);
+    justify-content: center;
+    column-gap:50px;
+    row-gap: 30px;
+    color: white;
+    margin-left: -40px;
+}
+
+.info{
+    position: fixed;
+    right: 10px;
+    width: 30px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.closeModalButton{
+    position: relative;
+    top: 5px;
+    left: 270px;
+    width: 15px;
+    height: 15px;
+}
+
+.modalTitle{
+    font-family: Serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.modalText{
+    text-align: justify;
+    margin-top: 50px;
+}

@@ -1,0 +1,7 @@
+.pageContainer{
+    background: #03134b;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}

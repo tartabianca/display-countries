@@ -1,0 +1,37 @@
+.ModalWrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    max-height: calc(100% - 6.4rem);
+}
+
+.ModalBackdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.ModalBox {
+    margin-top: 130px;
+    border-radius: 1rem;
+    border: 2px solid #0cafd7;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 920px;
+    overflow-y: auto;
+    background-color: white;
+    z-index: 101;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}

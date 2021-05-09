@@ -1,0 +1,27 @@
+.Pagination {
+    width: 70%;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.PaginationButton {
+    padding: .8rem .8rem .8rem .8rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    outline: none;
+    color: #b88a44;;
+    white-space: nowrap;
+}
+
+.PaginationButtonDysfunctional {
+    padding: .8rem .8rem .8rem .8rem;
+    font-size: 1.4rem;
+    outline: none;
+    color: #9c9c9b;
+    white-space: nowrap;
+}
+
+.PaginationButton:hover {color: #5d3702;}

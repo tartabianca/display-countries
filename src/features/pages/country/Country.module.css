@@ -1,0 +1,90 @@
+.pageContainer{
+    padding-top: 85px;
+}
+
+.header{
+    height: 150px;
+    border-bottom: 1px solid #61dafb;
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    font-size: 50px;
+    height: 70px;
+    font-family: "Serif", "Garamond";
+    font-weight: bold;
+    background: -webkit-linear-gradient(#ffffff, #00227f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.details{
+    width: 60%;
+    display: flex;
+}
+
+.boxContainer{
+    width: 40%;
+}
+
+.box{
+    width: 300px;
+    border: 3px solid #093ecd;
+    display: inline-block;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.flag{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+p{
+    margin-bottom: -3px;
+}
+
+.translations{
+    text-align: left;
+    display: inline-block;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.detailsBox{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: Serif;
+    font-size: 20px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.neighbours{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.linkNeighbour{
+    margin-bottom: -5px;
+    cursor: pointer;
+}
+
+.linkNeighbour:hover{
+    text-decoration: underline;
+    transform: translateY(-1px);
+}
